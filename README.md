@@ -7,5 +7,5 @@ mkpasswd工具
 --------
 
 ```
-mkpasswd --method=sha-512
+docker run -e PASSWORD=222222 --rm johncming2/mkpasswd:latest
 ```
